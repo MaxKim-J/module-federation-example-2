@@ -56,6 +56,9 @@ module.exports = {
           version: '^4.3.0',
           shareScope: 'not-default',
         },
+        'date-fns': {
+          version: '^2.30.0',
+        },
       },
     }),
   ],
