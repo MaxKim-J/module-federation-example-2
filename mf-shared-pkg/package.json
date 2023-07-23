@@ -1,0 +1,31 @@
+{
+  "name": "shared-deps-mf-package",
+  "version": "1.0.11",
+  "description": "npm 퍼블릭 레지스트리를 사용하는 공유 의존성 패키지",
+  "author": "MaxKim-J",
+  "repository": "https://github.com/MaxKim-J/max-breakable-toys",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm publish"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.215",
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.7",
+    "swc-loader": "^0.2.3",
+    "typescript": "^5.0.4"
+  }
+}
