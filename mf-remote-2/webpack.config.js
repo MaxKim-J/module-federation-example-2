@@ -52,6 +52,10 @@ module.exports = {
           singleton: true,
           version: '1.0.9',
         },
+        'lodash.camelcase': {
+          version: '^4.3.0',
+          shareScope: 'not-default',
+        },
       },
     }),
   ],
