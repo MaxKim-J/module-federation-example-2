@@ -15,15 +15,15 @@ export function ModuleLoader({
   });
 
   if (!module) {
-    return <h2>Not system specified</h2>;
+    return <p>Not system specified</p>;
   }
 
   if (!ready) {
-    return <h2>Loading dynamic script: {url}</h2>;
+    return <p>Loading dynamic script: {url}</p>;
   }
 
   if (failed) {
-    return <h2>Failed to load dynamic script: {url}</h2>;
+    return <p>Failed to load dynamic script: {url}</p>;
   }
 
   const Component = lazy(loadComponent(scope, module));
@@ -35,14 +35,14 @@ export function ModuleLoader({
   );
 }
 
-function loadComponent(scope, module) {
+function loadComponent(scope: string, module: string) {
   return async () => {
     //@ts-ignore
     await __webpack_init_sharing__('default');
-    const container = window[scope]; // or get the container somewhere else
+    const container = (window as any)[scope]; // or get the container somewhere else
     //@ts-ignore
     await container.init(__webpack_share_scopes__.default);
-    const factory = await window[scope].get(module);
+    const factory = await (window as any)[scope].get(module);
 
     return factory();
   };
