@@ -51,11 +51,8 @@ module.exports = {
       shared: {
         react: {
           singleton: true,
-          version: '18.2.0',
         },
-        'shared-deps-mf-package': {
-          version: '1.0.8',
-        },
+        'shared-deps-mf-package': {},
       },
     }),
   ],

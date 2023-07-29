@@ -46,18 +46,10 @@ module.exports = {
       shared: {
         react: {
           singleton: true,
-          version: '18.2.0',
         },
-        'shared-deps-mf-package': {
-          version: '1.0.9',
-        },
-        'lodash.camelcase': {
-          version: '^4.3.0',
-          shareScope: 'default',
-        },
-        'date-fns': {
-          version: '^2.30.0',
-        },
+        'shared-deps-mf-package': {},
+        'lodash.camelcase': {},
+        'date-fns': {},
       },
     }),
   ],

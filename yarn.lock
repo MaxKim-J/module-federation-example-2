@@ -172,7 +172,7 @@ __metadata:
     prettier: ^2.8.7
     react: ^18.2.0
     react-dom: ^18.2.0
-    shared-deps-mf-package: 1.0.8
+    shared-deps-mf-package: 1.0.9
     swc-loader: ^0.2.3
     typescript: ^5.0.4
     webpack: ^5.56.0
@@ -190,7 +190,7 @@ __metadata:
     "@types/react-dom": ^18.0.11
     "@typescript-eslint/eslint-plugin": ^5.58.0
     "@typescript-eslint/parser": ^5.58.0
-    date-fns: ^2.30.0
+    date-fns: 2.30.0
     eslint: ^8.38.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-plugin-import: ^2.27.5
@@ -200,7 +200,7 @@ __metadata:
     prettier: ^2.8.7
     react: ^18.2.0
     react-dom: ^18.2.0
-    shared-deps-mf-package: 1.0.9
+    shared-deps-mf-package: ^1.0.8
     swc-loader: ^0.2.3
     typescript: ^5.0.4
     webpack: ^5.56.0
@@ -218,7 +218,7 @@ __metadata:
     "@types/react-dom": ^18.0.11
     "@typescript-eslint/eslint-plugin": ^5.58.0
     "@typescript-eslint/parser": ^5.58.0
-    date-fns: ^2.30.0
+    date-fns: 2.28.0
     eslint: ^8.38.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-plugin-import: ^2.27.5
@@ -228,7 +228,7 @@ __metadata:
     prettier: ^2.8.7
     react: ^18.2.0
     react-dom: ^18.2.0
-    shared-deps-mf-package: 1.0.9
+    shared-deps-mf-package: ^1.0.8
     swc-loader: ^0.2.3
     typescript: ^5.0.4
     webpack: ^5.56.0
@@ -1278,7 +1278,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^2.30.0":
+"date-fns@npm:2.28.0":
+  version: 2.28.0
+  resolution: "date-fns@npm:2.28.0"
+  checksum: a0516b2e4f99b8bffc6cc5193349f185f195398385bdcaf07f17c2c4a24473c99d933eb0018be4142a86a6d46cb0b06be6440ad874f15e795acbedd6fd727a1f
+  languageName: node
+  linkType: hard
+
+"date-fns@npm:2.30.0":
   version: 2.30.0
   resolution: "date-fns@npm:2.30.0"
   dependencies:
@@ -3524,21 +3531,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shared-deps-mf-package@npm:1.0.8":
-  version: 1.0.8
-  resolution: "shared-deps-mf-package@npm:1.0.8"
-  checksum: 3cd504e55fcbfc07dcfc508a9686401062271ce3e10bf42cdb756964b0810b2fd8513114fc852388377271d83eb9c408c75844d9d12b62e41b5bb3a5eb2e8db9
-  languageName: node
-  linkType: hard
-
-"shared-deps-mf-package@npm:1.0.9":
-  version: 1.0.9
-  resolution: "shared-deps-mf-package@npm:1.0.9"
-  checksum: 5d4e1e2ca6ac2ad126f35ee217703dbddc35c67a62b1b1659270cc41db589dac26a1b3a769e796170e4f2f59091f00db8f916e3c076114b73ccc2bcf4045b38e
-  languageName: node
-  linkType: hard
-
-"shared-deps-mf-package@workspace:mf-shared-pkg":
+"shared-deps-mf-package@^1.0.8, shared-deps-mf-package@workspace:mf-shared-pkg":
   version: 0.0.0-use.local
   resolution: "shared-deps-mf-package@workspace:mf-shared-pkg"
   dependencies:
@@ -3556,6 +3549,13 @@ __metadata:
     typescript: ^5.0.4
   languageName: unknown
   linkType: soft
+
+"shared-deps-mf-package@npm:1.0.9":
+  version: 1.0.9
+  resolution: "shared-deps-mf-package@npm:1.0.9"
+  checksum: 5d4e1e2ca6ac2ad126f35ee217703dbddc35c67a62b1b1659270cc41db589dac26a1b3a769e796170e4f2f59091f00db8f916e3c076114b73ccc2bcf4045b38e
+  languageName: node
+  linkType: hard
 
 "shebang-command@npm:^2.0.0":
   version: 2.0.0
