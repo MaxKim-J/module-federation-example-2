@@ -52,7 +52,9 @@ module.exports = {
         react: {
           singleton: true,
         },
-        'shared-deps-mf-package': {},
+        'shared-deps-mf-package': {
+          singleton: true,
+        },
       },
     }),
   ],
