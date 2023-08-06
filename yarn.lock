@@ -200,7 +200,7 @@ __metadata:
     prettier: ^2.8.7
     react: ^18.2.0
     react-dom: ^18.2.0
-    shared-deps-mf-package: ^1.0.10
+    shared-deps-mf-package: 1.0.10
     swc-loader: ^0.2.3
     typescript: ^5.0.4
     webpack: ^5.56.0
@@ -3531,7 +3531,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shared-deps-mf-package@1.0.11, shared-deps-mf-package@^1.0.10, shared-deps-mf-package@workspace:mf-shared-pkg":
+"shared-deps-mf-package@1.0.11, shared-deps-mf-package@workspace:mf-shared-pkg":
   version: 0.0.0-use.local
   resolution: "shared-deps-mf-package@workspace:mf-shared-pkg"
   dependencies:
@@ -3549,6 +3549,13 @@ __metadata:
     typescript: ^5.0.4
   languageName: unknown
   linkType: soft
+
+"shared-deps-mf-package@npm:1.0.10":
+  version: 1.0.10
+  resolution: "shared-deps-mf-package@npm:1.0.10"
+  checksum: 415083fd8a5af8560b39878a10d022fe133c07f9272ea2892035358728f952cda406936ce3a255e7a26b5ffabcad9730628204914826745af1fae15daeabeae2
+  languageName: node
+  linkType: hard
 
 "shared-deps-mf-package@npm:1.0.9":
   version: 1.0.9
